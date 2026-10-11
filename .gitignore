@@ -1,1 +1,26 @@
+# Python
 __pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Secretos
+.env
+.env.*
+*.key
+*.pem
+
+# Editores / SO
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
